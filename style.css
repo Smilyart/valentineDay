@@ -85,6 +85,18 @@ img {
 }
 
 .board .button2 {
+    position: absolute;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    font-size: 24px;
+    transition: background-color 0.3s ease-in-out;
     left: 52%;
 }
 
@@ -115,12 +127,10 @@ img {
         margin-right: 16px;
     }
 
-    .board .button1:last-child {
-        margin-right: 0;
-    }
-
     .board .button2 {
-        margin-left: 16px;
+        width: 90px;
+        font-size: 22px;
+        margin-right: 0px;
     }
 
     :root {
@@ -146,15 +156,13 @@ img {
     .board .button1 {
         width: 75px;
         font-size: 20px;
-        margin-right: 16px;
-    }
-
-    .board .button1:last-child {
-        margin-right: 0;
+        left: 41%;
     }
 
     .board .button2 {
-        margin-left: 16px;
+        width: 75px;
+        font-size: 20px;
+        left: 53%;
     }
     
     :root {
@@ -191,15 +199,14 @@ img {
         width: 50px;
         font-size: 15px;
         height: 30px;
-        margin-right: 16px;
-    }
-
-    .board .button1:last-child {
-        margin-right: 0;
+        left: 40%;
     }
 
     .board .button2 {
-        margin-left: 16px;
+        width: 50px;
+        font-size: 15px;
+        height: 30px;
+        left: 52%;
     }
 
     .text {
@@ -232,15 +239,14 @@ img {
         width: 50px;
         font-size: 14px;
         height: 30px;
-        margin-right: 16px;
-    }
-
-    .board .button1:last-child {
-        margin-right: 0;
+        left: 38%;
     }
 
     .board .button2 {
-        margin-left: 16px;
+        width: 50px;
+        font-size: 14px;
+        height: 30px;
+        left: 53%;
     }
     
     :root {
