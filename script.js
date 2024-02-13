@@ -21,7 +21,7 @@ const description = document.querySelector('#description');
 //обработчик событий для "Да"
 ybtn.addEventListener('click', () => {
     //изменяем изображение и текст
-    cat.src = "../img/cat_two.png";
+    cat.src = "img/cat_two.png";
     description.textContent = "Я так і знав, цьом цьом 🥰";
     //скрываем кнопку "Нет"
     btn.style.display = 'none';
@@ -30,7 +30,7 @@ ybtn.addEventListener('click', () => {
 })
 
 rbtn.addEventListener('click', () => {
-    cat.src = "../img/cat_one.png";
+    cat.src = "img/cat_one.png";
     description.textContent = "Ти будеш моєю кицьою?";
     btn.style.display = 'block';
     ybtn.style.display = 'block';
