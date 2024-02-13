@@ -115,6 +115,10 @@ img {
         margin-right: 16px;
     }
 
+    .board .button1:last-child {
+        margin-right: 0;
+    }
+
     .board .button2 {
         margin-left: 16px;
     }
@@ -143,6 +147,10 @@ img {
         width: 75px;
         font-size: 20px;
         margin-right: 16px;
+    }
+
+    .board .button1:last-child {
+        margin-right: 0;
     }
 
     .board .button2 {
@@ -186,6 +194,10 @@ img {
         margin-right: 16px;
     }
 
+    .board .button1:last-child {
+        margin-right: 0;
+    }
+
     .board .button2 {
         margin-left: 16px;
     }
@@ -221,6 +233,10 @@ img {
         font-size: 14px;
         height: 30px;
         margin-right: 16px;
+    }
+
+    .board .button1:last-child {
+        margin-right: 0;
     }
 
     .board .button2 {
