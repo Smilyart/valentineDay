@@ -30,7 +30,7 @@ ybtn.addEventListener('click', () => {
 })
 
 rbtn.addEventListener('click', () => {
-    cat.src = "/img/cat_one.gif";
+    cat.innerHTML = `<div class="tenor-gif-embed" data-postid="13811976483166675868" data-share-method="host" data-aspect-ratio="1.0641" data-width="50%"><a href="https://tenor.com/view/peach-goma-love-peach-cat-peach-and-goma-love-peach-goma-heart-gif-13811976483166675868">Peach Goma Love Peach Cat Sticker</a>from <a href="https://tenor.com/search/peach+goma+love-stickers">Peach Goma Love Stickers</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>`;
     description.textContent = "Ти будеш моєю кицьою?";
     btn.style.display = 'block';
     ybtn.style.display = 'block';
