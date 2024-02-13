@@ -21,7 +21,7 @@ const description = document.querySelector('#description');
 //обработчик событий для "Да"
 ybtn.addEventListener('click', () => {
     //изменяем изображение и текст
-    cat.src = "../img/cat_two.gif";
+    cat.src = "../img/cat_two.png";
     description.textContent = "Я так і знав, цьом цьом 🥰";
     //скрываем кнопку "Нет"
     btn.style.display = 'none';
@@ -30,7 +30,7 @@ ybtn.addEventListener('click', () => {
 })
 
 rbtn.addEventListener('click', () => {
-    cat.innerHTML = `<div class="tenor-gif-embed" data-postid="13811976483166675868" data-share-method="host" data-aspect-ratio="1.0641" data-width="50%"><a href="https://tenor.com/view/peach-goma-love-peach-cat-peach-and-goma-love-peach-goma-heart-gif-13811976483166675868">Peach Goma Love Peach Cat Sticker</a>from <a href="https://tenor.com/search/peach+goma+love-stickers">Peach Goma Love Stickers</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>`;
+    cat.src = "../img/cat_one.png";
     description.textContent = "Ти будеш моєю кицьою?";
     btn.style.display = 'block';
     ybtn.style.display = 'block';
