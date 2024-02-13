@@ -112,11 +112,11 @@ img {
     .board .button1 {
         width: 90px;
         font-size: 22px;
-        margin-right: 12px;
+        margin-right: 16px;
     }
 
     .board .button2 {
-        margin-left: 12px;
+        margin-left: 16px;
     }
 
     :root {
@@ -142,11 +142,11 @@ img {
     .board .button1 {
         width: 75px;
         font-size: 20px;
-        margin-right: 12px;
+        margin-right: 16px;
     }
 
     .board .button2 {
-        margin-left: 12px;
+        margin-left: 16px;
     }
     
     :root {
@@ -183,11 +183,11 @@ img {
         width: 50px;
         font-size: 15px;
         height: 30px;
-        margin-right: 12px;
+        margin-right: 16px;
     }
 
     .board .button2 {
-        margin-left: 12px;
+        margin-left: 16px;
     }
 
     .text {
@@ -220,7 +220,7 @@ img {
         width: 50px;
         font-size: 14px;
         height: 30px;
-        margin-right: 12px;
+        margin-right: 16px;
     }
 
     .board .button2 {
